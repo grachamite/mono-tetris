@@ -1,0 +1,42 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin images/block03.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:images/block03.png
+
+#begin shapes/i_shape_4.json
+/copy:shapes/i_shape_4.json;shapes/i_shape_4.json
+#begin shapes/j_shape_4.json
+/copy:shapes/j_shape_4.json;shapes/j_shape_4.json
+#begin shapes/l_shape_4.json
+/copy:shapes/l_shape_4.json;shapes/l_shape_4.json
+#begin shapes/o_shape_4.json
+/copy:shapes/o_shape_4.json;shapes/o_shape_4.json
+#begin shapes/s_shape_4.json
+/copy:shapes/s_shape_4.json;shapes/s_shape_4.json
+#begin shapes/t_shape_4.json
+/copy:shapes/t_shape_4.json;shapes/t_shape_4.json
+#begin shapes/z_shape_4.json
+/copy:shapes/z_shape_4.json;shapes/z_shape_4.json
+

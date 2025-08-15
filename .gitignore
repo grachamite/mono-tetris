@@ -1,0 +1,75 @@
+# MonoGame .gitignore
+
+### IDE and temp files ###
+[Bb]in/
+[Oo]bj/
+[Tt]humbs.db
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.ncrunchproject
+*.vspscc
+*.vssscc
+*.pidb
+*.DS_Store
+*.swp
+*~
+
+### Cache and logs ###
+*.log
+*.cache
+*.pidb
+*.ilk
+*.pdb
+
+### Build ###
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.ipa
+*.apk
+*.aab
+*.xap
+*.msix
+*.appx
+*.nupkg
+
+### Monogame content ###
+/Content/obj/
+/Content/bin/
+!/Content/*.*
+!/Content/**/*.*
+
+### System files ###
+.DS_Store
+Thumbs.db
+
+### JetBrains Rider ###
+.idea/
+*.sln.iml
+
+### Visual Studio Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+### User settings ###
+*.userosscache
+*.sln.ide
+
+### Backups ###
+*.bak
+*.tmp
+*.orig
+
+### Artefacts ###
+/_ReSharper.*/
+/_UpgradeReport_Files/
+*.dotCover
+*.coverage
+*.opensdf
+*.sdf
